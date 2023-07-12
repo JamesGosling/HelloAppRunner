@@ -3,7 +3,7 @@ runtime: corretto11
 build:
   commands:    
     build:
-      - mvn clean package
+      - mvn clean  package
 run:                              
   command: java -Xms256m -jar target/HelloWorldJavaApp-1.0-SNAPSHOT.jar .
   network:
