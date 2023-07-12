@@ -8,3 +8,4 @@ run:
   command: java -Xms256m -jar target/HelloWorldJavaApp-1.0-SNAPSHOT.jar .
   network:
     port: 8080
+
